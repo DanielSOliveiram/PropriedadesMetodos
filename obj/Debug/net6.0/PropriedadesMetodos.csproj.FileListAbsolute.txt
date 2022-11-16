@@ -1,0 +1,15 @@
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\bin\Debug\net6.0\PropriedadesMetodos.exe
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\bin\Debug\net6.0\PropriedadesMetodos.deps.json
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\bin\Debug\net6.0\PropriedadesMetodos.runtimeconfig.json
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\bin\Debug\net6.0\PropriedadesMetodos.dll
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\bin\Debug\net6.0\PropriedadesMetodos.pdb
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\PropriedadesMetodos.csproj.AssemblyReference.cache
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\PropriedadesMetodos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\PropriedadesMetodos.AssemblyInfoInputs.cache
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\PropriedadesMetodos.AssemblyInfo.cs
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\PropriedadesMetodos.csproj.CoreCompileInputs.cache
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\PropriedadesMetodos.dll
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\refint\PropriedadesMetodos.dll
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\PropriedadesMetodos.pdb
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\PropriedadesMetodos.genruntimeconfig.cache
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\ref\PropriedadesMetodos.dll
