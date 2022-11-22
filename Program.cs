@@ -3,12 +3,17 @@ using System.Globalization;
 
 CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
 
-decimal valorMonetario = 83.40M;
+//decimal valorMonetario = 83.40M;
 
 //Console.WriteLine($"{valorMonetario:C}");
 //Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")));
-Console.WriteLine(valorMonetario.ToString("C4"));
+//Console.WriteLine(valorMonetario.ToString("C4"));
 
+double porcentagem = .3421;
+Console.WriteLine(porcentagem.ToString("P"));
+
+int numero = 121122;
+Console.WriteLine(numero.ToString("##-##-##"));
 /*string numero1 = "10";
 int numero2 =20;
 
