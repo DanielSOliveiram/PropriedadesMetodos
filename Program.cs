@@ -1,11 +1,19 @@
 ﻿using PropriedadesMetodos.Models;
+using System.Globalization;
 
-string numero1 = "10";
+CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+
+decimal valorMonetario = 83.40M;
+
+//Console.WriteLine($"{valorMonetario:C}");
+Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")));
+
+/*string numero1 = "10";
 int numero2 =20;
 
 string resultado = numero1 + numero2;
 
-Console.WriteLine(resultado);
+Console.WriteLine(resultado);*/
 
 
 
