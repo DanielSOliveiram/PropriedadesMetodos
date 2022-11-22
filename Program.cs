@@ -1,7 +1,7 @@
 ﻿using PropriedadesMetodos.Models;
 using System.Globalization;
 
-CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
+//CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
 
 //decimal valorMonetario = 83.40M;
 
@@ -14,6 +14,14 @@ Console.WriteLine(porcentagem.ToString("P"));
 
 int numero = 121122;
 Console.WriteLine(numero.ToString("##-##-##"));
+
+
+DateTime data = DateTime.Parse("17/04/2022 19:00");
+Console.WriteLine(data);
+/*Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
+Console.WriteLine(data.ToShortDateString());
+Console.WriteLine(data.ToShortTimeString());*/
+
 /*string numero1 = "10";
 int numero2 =20;
 
