@@ -7,7 +7,7 @@ using System.Globalization;
 
 try
 {
-    string[] linhas =File.ReadAllLines("Arquivos/ArquivoLeitur.txt");
+    string[] linhas =File.ReadAllLines("Arquivos/ArquivoLeitura.txt");
     foreach (string linha in linhas)
     {
     Console.WriteLine(linha);
@@ -24,8 +24,12 @@ catch(Exception ex)
 {
     Console.WriteLine($"Ocorreu uma excessao generica.  {ex.Message}");
 }
+finally
+{
+     Console.WriteLine("Chegou até aqui");
+}
 
-Console.WriteLine("Chegou até aqui");
+
 
 
 
