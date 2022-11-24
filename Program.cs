@@ -1,5 +1,38 @@
-﻿using PropriedadesMetodos.Models;
+﻿using System.IO;
+using PropriedadesMetodos.Models;
 using System.Globalization;
+
+
+
+
+try
+{
+    string[] linhas =File.ReadAllLines("Arquivos/ArquivoLeitur.txt");
+    foreach (string linha in linhas)
+    {
+    Console.WriteLine(linha);
+    }
+
+} catch(FileNotFoundException ex)
+{
+    Console.WriteLine($"Arquivo não encontrado.  {ex.Message}");
+}catch(DirectoryNotFoundException ex)
+{
+    Console.WriteLine($"Caminho nao encontrdo.  {ex.Message}");
+}
+catch(Exception ex)
+{
+    Console.WriteLine($"Ocorreu uma excessao generica.  {ex.Message}");
+}
+
+Console.WriteLine("Chegou até aqui");
+
+
+
+
+
+
+
 
 //CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("en-US");
 
@@ -9,7 +42,7 @@ using System.Globalization;
 //Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR")));
 //Console.WriteLine(valorMonetario.ToString("C4"));
 
-double porcentagem = .3421;
+/*double porcentagem = .3421;
 Console.WriteLine(porcentagem.ToString("P"));
 
 int numero = 121122;
@@ -17,7 +50,7 @@ Console.WriteLine(numero.ToString("##-##-##"));
 
 
 DateTime data = DateTime.Parse("17/04/2022 19:00");
-Console.WriteLine(data);
+Console.WriteLine(data);*/
 /*Console.WriteLine(data.ToString("dd/MM/yyyy HH:mm"));
 Console.WriteLine(data.ToShortDateString());
 Console.WriteLine(data.ToShortTimeString());*/
