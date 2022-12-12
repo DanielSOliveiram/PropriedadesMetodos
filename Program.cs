@@ -1,8 +1,83 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 using PropriedadesMetodos.Models;
 using System.Globalization;
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+LeituraArquivo arquivo =new LeituraArquivo();
+var (sucesso,linhas , _) = arquivo.LerArquivo("Arquivos/ArquivoLeitura.txt");
+
+if(sucesso)
+{
+    //Console.WriteLine("Quantidade linhas do Arquivos " + quantidadedeLinhas);
+    foreach(string linha in linhas )
+    {
+        Console.WriteLine(linha);
+    }
+
+}
+else
+{
+    Console.WriteLine("Não foi possivel ler o Arquivo");
+}*/
+
+
+
+
+
+
+
+
+
+
+/*
+(int, string ,string, decimal) tupla = (1,"Daniel","Oliveira" , 10.5M);
+//ValueTuple<int, string ,string, decimal> OutroExemploTupla =(2,"Carlos","Oliveira" , 12.5M);
+//var ExemploCreate = Tuple.Create(1,"Carlos","Silva",12.4M);
+
+Console.WriteLine($"Id: {tupla.Item1}");
+Console.WriteLine($"Nome: {tupla.Item2}");
+Console.WriteLine($"Sobrenome: {tupla.Item3}");
+Console.WriteLine($"Altura: {tupla.Item4}");*/
+
+
+/*
+Dictionary<string , string> estados = new Dictionary<string, string>();
+
+
+estados.Add("SP","São Paulo");
+estados.Add("BA","Bahia");
+estados["SP"] = "São Paulo - valor Alterado";
+
+foreach(KeyValuePair<string ,string> item in estados)
+{
+    Console.WriteLine($" Chave:{item.Key}, Valor: {item.Value}");
+}*/
+
+
+
+
+
+
+
+/*
 Queue<int> fila = new Queue<int>();
 
 fila.Enqueue(2);
@@ -18,6 +93,12 @@ foreach(int  item in fila)
 fila.Dequeue();
 
 Stack<int> pilha = new Stack<int>();
+
+pilha.Push(1);
+pilha.Push(10);
+
+pilha.Pop();*/
+
 
 //new ExemploExcecao().Metodo1();
 
