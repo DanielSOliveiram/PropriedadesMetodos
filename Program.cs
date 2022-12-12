@@ -3,8 +3,15 @@ using PropriedadesMetodos.Models;
 using System.Globalization;
 
 
+new ExemploExcecao().Metodo1();
 
 
+
+
+
+
+
+/*
 try
 {
     string[] linhas =File.ReadAllLines("Arquivos/ArquivoLeitura.txt");
@@ -27,7 +34,7 @@ catch(Exception ex)
 finally
 {
      Console.WriteLine("Chegou até aqui");
-}
+}*/
 
 
 
