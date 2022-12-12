@@ -4,7 +4,40 @@ using PropriedadesMetodos.Models;
 using System.Globalization;
 
 
+//If ternario
 
+int numero = 15;
+bool ehPar = false;
+ehPar = numero % 2 == 0;
+
+Console.WriteLine($"O numero {numero} é " +(ehPar ? "par" : "impar"));
+
+
+
+
+/*
+if(numero % 2 == 0)
+{
+   Console.WriteLine($"O numero {numero} é par");
+}
+else
+{
+    Console.WriteLine($"O numero {numero} é impar");
+}*/
+
+
+
+
+
+
+
+
+
+
+/*
+Pessoa p1 =  new Pessoa("Daniel","Oliveira");
+(string nome ,string sobrenome) = p1;
+Console.WriteLine($"{nome} {sobrenome}");*/
 
 
 

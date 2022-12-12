@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6VdE0OEPEk0qp4rMhAsjXv8EQAnNYgX42hr7hlC1BIcq0MJbQH34T7xJxq2o9sBRJ8Qf67LVVZ28K7zHGdiwNQ==",
+  "dgSpecHash": "jXBNnHB5v7srHVQUg/2Cq3pWFqJiU9hwdBjsIsXNlLkigJyOKC1zrh43Vuo6ivqFXEZIDELGbvnkz/1IfcIPZQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\bruno\\OneDrive\\Documentos\\GitHub\\PropriedadesMetodos\\PropriedadesMetodos.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\bruno\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
