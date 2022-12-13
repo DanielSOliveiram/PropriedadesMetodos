@@ -13,3 +13,5 @@ C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\r
 C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\PropriedadesMetodos.pdb
 C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\PropriedadesMetodos.genruntimeconfig.cache
 C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\ref\PropriedadesMetodos.dll
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\bruno\OneDrive\Documentos\GitHub\PropriedadesMetodos\obj\Debug\net6.0\PropriedadesMetodos.csproj.CopyComplete

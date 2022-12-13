@@ -2,15 +2,56 @@
 using System.IO;
 using PropriedadesMetodos.Models;
 using System.Globalization;
+using Newtonsoft.Json;
+
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda =  JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+foreach (Venda venda in listaVenda)
+{
+    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}"+
+                    $"Preço {venda.Preco}, Data {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+}
+
+
+
+
+
+
+
+/*
+DateTime dataAtual = DateTime.Now;
+
+List<Venda> listaVendas = new List<Venda>();
+
+Venda v1 = new Venda(1,"Material de escritorio", 25.00M , dataAtual);
+Venda v2 = new Venda(2,"Licença de Software", 110.00M, dataAtual);
+
+listaVendas.Add(v1);
+listaVendas.Add(v2);
+
+string serializado = JsonConvert.SerializeObject(listaVendas,Formatting.Indented);
+Console.WriteLine(serializado);
+File.WriteAllText("Arquivos/vendas.json", serializado);
+
+Console.WriteLine(serializado);*/
 
 
 //If ternario
 
+
+
+
+
+
+/*
 int numero = 15;
 bool ehPar = false;
 ehPar = numero % 2 == 0;
 
-Console.WriteLine($"O numero {numero} é " +(ehPar ? "par" : "impar"));
+Console.WriteLine($"O numero {numero} é " +(ehPar ? "par" : "impar"));*/
 
 
 
