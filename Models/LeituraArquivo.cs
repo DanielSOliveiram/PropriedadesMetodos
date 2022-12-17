@@ -8,7 +8,7 @@ namespace PropriedadesMetodos.Models
             {
              string[] linhas = File.ReadAllLines(caminho);
              return (true ,linhas , linhas.Count());
-            }catch(Exception ex)
+            }catch(Exception )
             {
              return(false ,new string[0] , 0);
             }

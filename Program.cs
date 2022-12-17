@@ -5,6 +5,110 @@ using System.Globalization;
 using Newtonsoft.Json;
 
 
+int numero = 15;
+bool par = false;
+
+//IF ternário
+par = numero.EhPar();
+
+string message = "O numero " + numero +" " + " é " + (par ? "par" : "impar");
+Console.WriteLine(message);
+
+
+
+
+
+
+
+
+
+
+
+/*
+MeuArray<int> arrayInteiro = new MeuArray<int>();
+
+arrayInteiro.AdicionarElementoArray(30);
+
+Console.WriteLine(arrayInteiro[0]);
+
+MeuArray<string> arrayString = new MeuArray<string>();
+
+arrayString.AdicionarElementoArray("texto");
+
+Console.WriteLine(arrayString[0]);
+
+List<int> lista = new List<int>();
+*/
+
+
+
+
+
+
+
+
+
+/*
+dynamic varialveDinamica = true;
+
+Console.WriteLine($"Tipo de Variavel: {varialveDinamica.GetType()} , Valor: {varialveDinamica}");
+
+ varialveDinamica = "Olá";
+
+Console.WriteLine($"Tipo de Variavel: {varialveDinamica.GetType()} , Valor: {varialveDinamica}");
+*/
+
+
+
+
+
+
+
+
+/*
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+List<Venda> listaVenda =  JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+var listaAnonimo = listaVenda.Select(x => new {x.Produto, x.Preco});
+
+foreach(var venda  in listaAnonimo)
+{
+    Console.WriteLine($"Produto: {venda.Produto}, Preço {venda.Preco}");
+}*/
+
+
+
+/*
+var tipoAnonimo = new {Nome = "Daniel", Sobrenome = "Oliveira", Altura = 1.80};
+
+Console.WriteLine("Nome: "+ tipoAnonimo.Nome);
+Console.WriteLine("Sobreome: "+ tipoAnonimo.Sobrenome);
+Console.WriteLine("Altura: "+ tipoAnonimo.Altura);*/
+
+
+/*
+bool? desejaReceberEmail = null;
+
+if(desejaReceberEmail.HasValue && desejaReceberEmail.Value)
+{
+    Console.WriteLine("O usuario optou por não receber email");
+}
+else
+{
+    Console.WriteLine("O usuario não respondeu ou optou por não receber email");
+}*/
+
+
+
+
+
+
+
+
+
+
+/*
 string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
 
 List<Venda> listaVenda =  JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
@@ -12,8 +116,9 @@ List<Venda> listaVenda =  JsonConvert.DeserializeObject<List<Venda>>(conteudoArq
 foreach (Venda venda in listaVenda)
 {
     Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}"+
-                    $"Preço {venda.Preco}, Data {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
-}
+                    $"Preço {venda.Preco}, Data {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}, "+
+                    $" {(venda.Desconto.HasValue ? $"Desconto de: {venda.Desconto}": "")}");
+}*/
 
 
 
